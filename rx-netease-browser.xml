@@ -1,9 +1,0 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" 
-	type="activity" 
-	sender="other" 
-	package="com.netease.cloudmusic" 
-	component="com.netease.cloudmusic.activity.RedirectActivity">
-	<intent-filter>
-		<action name="android.intent.action.VIEW"/>
-	</intent-filter>
-</prescription>	
