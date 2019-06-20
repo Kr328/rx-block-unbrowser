@@ -1,4 +1,4 @@
-<prescription xmlns="http://greenify.github.io/schemas/prescription/v2" 
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v3" 
 	type="activity" 
 	sender="other-app" 
 	package="com.netease.cloudmusic" 
