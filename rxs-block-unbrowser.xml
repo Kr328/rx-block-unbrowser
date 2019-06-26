@@ -1,11 +1,13 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
   <prescription 
-      type="activity" 
-      class="com.netease.cloudmusic.activity.RedirectActivity">
+      type="activity"
+      package="com.netease.cloudmusic"
+      class="com.netease.cloudmusic.activity.RedirectActivity"
+      sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
-      <schema name="http"/>
-      <schema name="https"/>
+      <scheme name="http"/>
+      <scheme name="https"/>
     <intent-filter>
   </prescription>
 </prescriptions>
