@@ -8,6 +8,6 @@
       <action name="android.intent.action.VIEW"/>
       <scheme name="http"/>
       <scheme name="https"/>
-    <intent-filter>
+    </intent-filter>
   </prescription>
 </prescriptions>
