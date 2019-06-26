@@ -2,7 +2,7 @@
   <prescription 
       type="activity" 
       package="com.netease.cloudmusic" 
-      class="com.netease.cloudmusic.activity.RedirectActivity" sender="other" >
+      class="com.netease.cloudmusic.activity.RedirectActivity">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <schema name="http"/>
