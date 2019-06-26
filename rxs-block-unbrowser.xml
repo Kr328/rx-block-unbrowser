@@ -10,4 +10,15 @@
       <scheme name="https"/>
     </intent-filter>
   </prescription>
+  <prescription 
+      type="activity"
+      package="com.taobao.taobao"
+      class="com.taobao.search.common.SearchBonusActivity"
+      sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <scheme name="http"/>
+      <scheme name="https"/>
+    </intent-filter>
+  </prescription>
 </prescriptions>
