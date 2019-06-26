@@ -1,24 +1,28 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-  <prescription 
-      type="activity"
-      package="com.netease.cloudmusic"
-      class="com.netease.cloudmusic.activity.RedirectActivity"
-      sender="other">
+  <!-- netease cloud music-->
+  <prescription type="activity" package="com.netease.cloudmusic" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
     <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <scheme name="http"/>
+      <action name="android.intent.action.VIEW" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  
+  <!-- taobao -->
+  <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  <prescription type="activity" package="com.taobao.taobao" class="com.taobao.browser.BrowserActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <scheme name="http" />
       <scheme name="https"/>
     </intent-filter>
   </prescription>
-  <prescription 
-      type="activity"
-      package="com.taobao.taobao"
-      class="com.taobao.search.common.SearchBonusActivity"
-      sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <scheme name="http"/>
-      <scheme name="https"/>
-    </intent-filter>
-  </prescription>
+
+  <!--  -->
 </prescriptions>
