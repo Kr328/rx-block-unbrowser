@@ -12,3 +12,5 @@
   * WiFi 万能钥匙
   * IDM+
   * FV 悬浮球
+  * ADM Pro
+ 
