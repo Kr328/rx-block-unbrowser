@@ -121,26 +121,6 @@
 
   </prescription>
   
-    <!--微博-->
-
-  <prescription type="activity" package="com.sina.weibo" class=".browser.WeiboBrowser" sender="other">
-
-    <intent-filter>
-
-      <action name="android.intent.action.VIEW" />
-
-      <cat name="android.intent.category.BROWSABLE" />
-
-      <cat name="android.intent.category.DEFAULT" />
-
-      <scheme name="http" />
-
-      <scheme name="https" />
-
-    </intent-filter>
-
-  </prescription>
-  
     <!--今日头条-->
 
   <prescription type="activity" package="com.ss.android.article.news" class="com.bytedance.news.foundation.router.AppLinkActivity" sender="other">
