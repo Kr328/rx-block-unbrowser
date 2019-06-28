@@ -149,7 +149,25 @@
 
   </prescription>
   
-  
+    <!-- ADM Pro -->
+
+  <prescription type="activity" package="com.dv.adm.pay" class="com.dv.get.WebBrow" sender="other">
+
+    <intent-filter>
+
+      <action name="android.intent.action.VIEW" />
+
+      <cat name="android.intent.category.BROWSABLE" />
+
+      <cat name="android.intent.category.DEFAULT" />
+
+      <scheme name="http" />
+
+      <scheme name="https" />
+
+    </intent-filter>
+
+  </prescription>
 
   <!-- taobao -->
 
