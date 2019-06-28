@@ -9,5 +9,6 @@
   * 手机淘宝
   * Last Pass
   * 今日头条
-  * WiFi万能钥匙
+  * WiFi 万能钥匙
   * IDM+
+  * FV 悬浮球
