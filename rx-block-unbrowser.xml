@@ -170,7 +170,25 @@
 
   </prescription>
 
-  
+    <!-- 西瓜视频 -->
+
+  <prescription type="activity" package="com.ss.android.article.video" class="com.ss.android.article.base.feature.link.AppLinkActivity" sender="other">
+
+    <intent-filter>
+
+      <action name="android.intent.action.VIEW" />
+
+      <cat name="android.intent.category.BROWSABLE" />
+
+      <cat name="android.intent.category.DEFAULT" />
+
+      <scheme name="http" />
+
+      <scheme name="https" />
+
+    </intent-filter>
+
+  </prescription>
 
   <!-- taobao -->
 
