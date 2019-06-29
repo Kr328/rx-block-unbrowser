@@ -149,6 +149,7 @@
 
   </prescription>
   
+
     <!-- ADM Pro -->
 
   <prescription type="activity" package="com.dv.adm.pay" class="com.dv.get.WebBrow" sender="other">
@@ -168,6 +169,8 @@
     </intent-filter>
 
   </prescription>
+
+  
 
   <!-- taobao -->
 
