@@ -190,6 +190,26 @@
 
   </prescription>
 
+    <!-- 快下 -->
+
+  <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.dispatch.DispatchTaskActivity" sender="other">
+
+    <intent-filter>
+
+      <action name="android.intent.action.VIEW" />
+
+      <cat name="android.intent.category.BROWSABLE" />
+
+      <cat name="android.intent.category.DEFAULT" />
+
+      <scheme name="http" />
+
+      <scheme name="https" />
+
+    </intent-filter>
+
+  </prescription>
+  
   <!-- taobao -->
 
   <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
