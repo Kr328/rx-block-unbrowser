@@ -1,6 +1,6 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 
-  <!-- netease cloud music-->
+  <!-- netease cloud music -->
 
   <prescription type="activity" package="com.netease.cloudmusic" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
 
