@@ -192,7 +192,7 @@
 
     <!-- 快下 -->
 
-  <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.activity.LaunchActivity" sender="other">
+  <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.dispatch.DispatchTaskActivity" sender="other">
 
     <intent-filter>
 
