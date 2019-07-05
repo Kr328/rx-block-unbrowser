@@ -1,6 +1,6 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 
-  <!-- netease cloud music -->
+  <!-- netease cloud music-->
 
   <prescription type="activity" package="com.netease.cloudmusic" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
 
@@ -20,45 +20,6 @@
 
   </prescription>
   
-  <!-- netease cloud music lite -->
-
-  <prescription type="activity" package="com.netease.cloudmusic.lite" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
-
-    <intent-filter>
-
-      <action name="android.intent.action.VIEW" />
-
-      <cat name="android.intent.category.BROWSABLE" />
-
-      <cat name="android.intent.category.DEFAULT" />
-
-      <scheme name="http" />
-
-      <scheme name="https" />
-
-    </intent-filter>
-
-  </prescription>
-
-  <!--必收-->
-
-  <prescription type="activity" package="com.gzqwkj.cshu" class="com.gzqwkj.cshu.ui.activity.LauchActivity" sender="other">
-
-    <intent-filter>
-
-      <action name="android.intent.action.VIEW" />
-
-      <cat name="android.intent.category.BROWSABLE" />
-
-      <cat name="android.intent.category.DEFAULT" />
-
-      <scheme name="http" />
-
-      <scheme name="https" />
-
-    </intent-filter>
-
-  </prescription>
 
   <!-- fv -->
   
@@ -309,6 +270,46 @@
 
   </prescription>
   
+    <!-- netease cloud music lite -->
+
+  <prescription type="activity" package="com.netease.cloudmusic.lite" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
+
+    <intent-filter>
+
+      <action name="android.intent.action.VIEW" />
+
+      <cat name="android.intent.category.BROWSABLE" />
+
+      <cat name="android.intent.category.DEFAULT" />
+
+      <scheme name="http" />
+
+      <scheme name="https" />
+
+    </intent-filter>
+
+  </prescription>
+
+  <!--必收-->
+
+  <prescription type="activity" package="com.gzqwkj.cshu" class="com.gzqwkj.cshu.ui.activity.LauchActivity" sender="other">
+
+    <intent-filter>
+
+      <action name="android.intent.action.VIEW" />
+
+      <cat name="android.intent.category.BROWSABLE" />
+
+      <cat name="android.intent.category.DEFAULT" />
+
+      <scheme name="http" />
+
+      <scheme name="https" />
+
+    </intent-filter>
+
+  </prescription>
+
   <!-- taobao -->
 
   <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
