@@ -20,7 +20,6 @@
 
   </prescription>
   
-
   <!-- fv -->
   
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FooPlayerProxy" sender="other">
@@ -61,8 +60,6 @@
 
   </prescription>
   
-  
-
     <!-- idm -->
 
   <prescription type="activity" package="idm.internet.download.manager.plus" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
@@ -82,8 +79,6 @@
     </intent-filter>
 
   </prescription>
-
-  
 
     <!-- WiFi万能钥匙 国内版-->
 
@@ -105,8 +100,6 @@
 
   </prescription>
   
-  
-
     <!--wifi万能钥匙 国际版-->
 
   <prescription type="activity" package="com.halo.wifikey.wifilocating" class="com.lantern.browser.ui.OuterBrowserActivity" sender="other">
@@ -127,8 +120,6 @@
 
   </prescription>
   
-  
-
     <!--今日头条-->
 
   <prescription type="activity" package="com.ss.android.article.news" class="com.bytedance.news.foundation.router.AppLinkActivity" sender="other">
@@ -149,7 +140,6 @@
 
   </prescription>
   
-
     <!-- ADM Pro -->
 
   <prescription type="activity" package="com.dv.adm.pay" class="com.dv.get.WebBrow" sender="other">
