@@ -5,7 +5,7 @@
 需要配合 [Riru-IFWEnhance](https://github.com/Kr328/Riru-IFWEnhance) 使用
 
 ### 目前已有规则
-  * 网易云音乐
+  * 网易云音乐&lite
   * 手机淘宝
   * Last Pass
   * 今日头条
@@ -18,4 +18,5 @@
   * 迅雷
   * 快下
   * 百度
+  * 必收
   
