@@ -1,4 +1,6 @@
-# rxs-block-unbrowser
+# rx-block-unbrowser
+一键导入 https://greenify.github.io/kr328/rx-block-unbrowser
+
 用于屏蔽 非浏览器应用 的 默认关联
 
 ### 依赖
