@@ -1,363 +1,199 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 
-  <!-- netease cloud music-->
-
+  <!-- netease cloud music -->
   <prescription type="activity" package="com.netease.cloudmusic" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
   <!-- fv -->
-  
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FooPlayerProxy" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
     <!-- last pass -->
-
   <prescription type="activity" package="com.lastpass.lpandroid" class="com.lastpass.lpandroid.activity.WebBrowserActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!-- idm -->
-
+    <!-- idm + -->
   <prescription type="activity" package="idm.internet.download.manager.plus" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
 
-    <!-- WiFi万能钥匙 国内版-->
-
+    <!-- WiFi万能钥匙 国内版 -->
   <prescription type="activity" package="com.snda.wifilocating" class="com.lantern.browser.ui.BrowserActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!--wifi万能钥匙 国际版-->
-
+    <!--wifi万能钥匙 国际版 -->
   <prescription type="activity" package="com.halo.wifikey.wifilocating" class="com.lantern.browser.ui.OuterBrowserActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!--今日头条-->
-
+    <!-- 今日头条 -->
   <prescription type="activity" package="com.ss.android.article.news" class="com.bytedance.news.foundation.router.AppLinkActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
     <!-- ADM Pro -->
-
   <prescription type="activity" package="com.dv.adm.pay" class="com.dv.get.WebBrow" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
 
     <!-- 西瓜视频 -->
-
   <prescription type="activity" package="com.ss.android.article.video" class="com.ss.android.article.base.feature.link.AppLinkActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
 
     <!-- 快下 -->
-
   <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.dispatch.DispatchTaskActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!--微博-->
-
+    <!-- 微博 -->
   <prescription type="activity" package="com.sina.weibo" class="com.sina.weibo.browser.WeiboBrowser" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!--迅雷-->
-
+    <!-- 迅雷 -->
   <prescription type="activity" package="com.xunlei.downloadprovider" class="com.xunlei.downloadprovider.launch.LaunchActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!--百度-->
-
+    <!-- 百度 -->
   <prescription type="activity" package="com.baidu.searchbox" class="com.baidu.searchbox.BoxBrowserActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
     <!-- netease cloud music lite -->
-
   <prescription type="activity" package="com.netease.cloudmusic.lite" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
 
-  <!--必收-->
-
+  <!-- 必收 -->
   <prescription type="activity" package="com.gzqwkj.cshu" class="com.gzqwkj.cshu.ui.activity.LauchActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
   
-    <!--aria2 app-->
-
+    <!-- aria2 app -->
   <prescription type="activity" package="com.gianlu.aria2app" class="com.gianlu.aria2app.LoadingActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
 
   <!-- taobao -->
-
   <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https" />
-
     </intent-filter>
-
   </prescription>
-
+  
   <prescription type="activity" package="com.taobao.taobao" class="com.taobao.browser.BrowserActivity" sender="other">
-
     <intent-filter>
-
       <action name="android.intent.action.VIEW" />
-
       <cat name="android.intent.category.BROWSABLE" />
-
       <cat name="android.intent.category.DEFAULT" />
-
       <scheme name="http" />
-
       <scheme name="https"/>
-
     </intent-filter>
-
   </prescription>
-
-  <!--  -->
-
 </prescriptions>
