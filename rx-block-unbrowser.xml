@@ -22,6 +22,27 @@
     </intent-filter>
   </prescription>
   
+    <!-- taobao -->
+  <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  
+  <prescription type="activity" package="com.taobao.taobao" class="com.taobao.browser.BrowserActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https"/>
+    </intent-filter>
+  </prescription>
+  
     <!-- last pass -->
   <prescription type="activity" package="com.lastpass.lpandroid" class="com.lastpass.lpandroid.activity.WebBrowserActivity" sender="other">
     <intent-filter>
@@ -98,7 +119,29 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+  
+    <!-- netease cloud music lite -->
+  <prescription type="activity" package="com.netease.cloudmusic.lite" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
+  <!-- 必收 -->
+  <prescription type="activity" package="com.gzqwkj.cshu" class="com.gzqwkj.cshu.ui.activity.LauchActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+ 
     <!-- 快下 -->
   <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.dispatch.DispatchTaskActivity" sender="other">
     <intent-filter>
@@ -142,29 +185,7 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
-  
-    <!-- netease cloud music lite -->
-  <prescription type="activity" package="com.netease.cloudmusic.lite" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW" />
-      <cat name="android.intent.category.BROWSABLE" />
-      <cat name="android.intent.category.DEFAULT" />
-      <scheme name="http" />
-      <scheme name="https" />
-    </intent-filter>
-  </prescription>
-
-  <!-- 必收 -->
-  <prescription type="activity" package="com.gzqwkj.cshu" class="com.gzqwkj.cshu.ui.activity.LauchActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW" />
-      <cat name="android.intent.category.BROWSABLE" />
-      <cat name="android.intent.category.DEFAULT" />
-      <scheme name="http" />
-      <scheme name="https" />
-    </intent-filter>
-  </prescription>
-  
+   
     <!-- aria2 app -->
   <prescription type="activity" package="com.gianlu.aria2app" class="com.gianlu.aria2app.LoadingActivity" sender="other">
     <intent-filter>
@@ -173,27 +194,6 @@
       <cat name="android.intent.category.DEFAULT" />
       <scheme name="http" />
       <scheme name="https" />
-    </intent-filter>
-  </prescription>
-
-  <!-- taobao -->
-  <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW" />
-      <cat name="android.intent.category.BROWSABLE" />
-      <cat name="android.intent.category.DEFAULT" />
-      <scheme name="http" />
-      <scheme name="https" />
-    </intent-filter>
-  </prescription>
-  
-  <prescription type="activity" package="com.taobao.taobao" class="com.taobao.browser.BrowserActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW" />
-      <cat name="android.intent.category.BROWSABLE" />
-      <cat name="android.intent.category.DEFAULT" />
-      <scheme name="http" />
-      <scheme name="https"/>
     </intent-filter>
   </prescription>
 </prescriptions>
