@@ -1,6 +1,7 @@
-# rxs-block-unbrowser
+# rx-block-unbrowser
 用于屏蔽 非浏览器应用 的 默认关联
 
+[一键导入](https://greenify.github.io/qaz617/rx-block-unbrowser)
 ### 依赖
 需要配合 [Riru-IFWEnhance](https://github.com/Kr328/Riru-IFWEnhance) 使用
 
@@ -19,4 +20,4 @@
   * 快下
   * 百度
   * 必收
-  * aria2app
+  * aria2 app
