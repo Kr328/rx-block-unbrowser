@@ -44,7 +44,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- WiFi万能钥匙 国内版-->
+  <!-- WIFI万能钥匙 国内版-->
   <prescription type="activity" package="com.snda.wifilocating" class="com.lantern.browser.ui.BrowserActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -55,7 +55,7 @@
     </intent-filter>
   </prescription>
 
-  <!--wifi万能钥匙 国际版-->
+  <!-- WIFI万能钥匙 国际版-->
   <prescription type="activity" package="com.halo.wifikey.wifilocating" class="com.lantern.browser.ui.OuterBrowserActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -138,6 +138,61 @@
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="http"/>
       <scheme name="https"/>
+    </intent-filter>
+  </prescription>
+  
+  <!-- 快下 -->
+  <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.dispatch.DispatchTaskActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  
+  <!-- 微博 -->
+  <prescription type="activity" package="com.sina.weibo" class="com.sina.weibo.browser.WeiboBrowser" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  
+  <!-- 迅雷 -->
+  <prescription type="activity" package="com.xunlei.downloadprovider" class="com.xunlei.downloadprovider.launch.LaunchActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  
+  <!-- 百度 -->
+  <prescription type="activity" package="com.baidu.searchbox" class="com.baidu.searchbox.BoxBrowserActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+   
+  <!-- aria2 app -->
+  <prescription type="activity" package="com.gianlu.aria2app" class="com.gianlu.aria2app.LoadingActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
     </intent-filter>
   </prescription>
 </prescriptions>
