@@ -196,12 +196,4 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
-  
-      <!-- 测试 -->
-  <prescription type="activity" package="com.coolapk.market" class="com.coolapk.market.view.main.MainActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW" />
-      <dat name="coolmarket://com.coolapk.market/qr_scan" />
-    </intent-filter>
-  </prescription>
 </prescriptions>
