@@ -196,4 +196,15 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+  
+  <!-- 彩云小译 -->
+  <prescription type="activity" package="com.caiyuninterpreter.activity" class="com.caiyuninterpreter.activity.activity.WebTranslationActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
