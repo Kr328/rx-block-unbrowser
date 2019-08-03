@@ -207,4 +207,15 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+
+  <!-- 海阔 -->
+  <prescription type="activity" package="com.dyh.hiker" class="com.dyh.movienow.ui.home.ResolveIntentDialogActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
