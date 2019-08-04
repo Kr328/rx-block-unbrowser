@@ -218,4 +218,15 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+
+ <!-- 快速搜索 -->
+  <prescription type="activity" package="com.hisnstudio.quicksearch" class="com.hisnstudio.quicksearch.WebActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
