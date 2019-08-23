@@ -229,4 +229,15 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+
+   <!-- 有道翻译官 -->
+  <prescription type="activity" package="com.youdao.translator" class="com.youdao.webtrans.WebTransActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
