@@ -262,4 +262,15 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+  
+  <!-- 航旅纵横 -->
+  <prescription type="activity" package="com.umetrip.android.msky.app" class="com.umetrip.android.msky.business.weex.WeexActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
