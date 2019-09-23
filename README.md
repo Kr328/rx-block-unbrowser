@@ -1,9 +1,6 @@
 # rx-block-unbrowser
-<<<<<<< HEAD
 一键导入 https://greenify.github.io/kr328/rx-block-unbrowser
 
-=======
->>>>>>> 3rd-party/master
 用于屏蔽 非浏览器应用 的 默认关联
 
 [一键导入](https://greenify.github.io/qaz617/rx-block-unbrowser)
@@ -20,7 +17,6 @@
   * FV 悬浮球
   * ADM Pro
   * 西瓜视频
-<<<<<<< HEAD
   * 网易云音乐极速版
   * 必收
   * 快下
@@ -28,17 +24,9 @@
   * 迅雷
   * 手机百度
   * Aria2
-=======
-  * 微博
-  * 迅雷
-  * 快下
-  * 百度
-  * 必收
-  * aria2 app
   * 彩云小译
   * 海阔
   * 快速搜索
   * 有道翻译官
   * 10086
   * 航旅纵横
->>>>>>> 3rd-party/master
