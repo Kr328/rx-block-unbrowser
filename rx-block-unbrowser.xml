@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-  <!-- netease cloud music-->
+  <!-- 网易云音乐 -->
   <prescription type="activity" package="com.netease.cloudmusic" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -11,7 +11,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- fv -->
+  <!-- FV悬浮球 -->
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FooPlayerProxy" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -22,7 +22,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- last pass -->
+  <!-- Last Pass -->
   <prescription type="activity" package="com.lastpass.lpandroid" class="com.lastpass.lpandroid.activity.WebBrowserActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -44,7 +44,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- WIFI万能钥匙 国内版-->
+  <!-- WIFI万能钥匙 国内版 -->
   <prescription type="activity" package="com.snda.wifilocating" class="com.lantern.browser.ui.BrowserActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -55,7 +55,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- WIFI万能钥匙 国际版-->
+  <!-- WIFI万能钥匙 国际版 -->
   <prescription type="activity" package="com.halo.wifikey.wifilocating" class="com.lantern.browser.ui.OuterBrowserActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -66,7 +66,7 @@
     </intent-filter>
   </prescription>
 
-  <!--今日头条-->
+  <!-- 今日头条 -->
   <prescription type="activity" package="com.ss.android.article.news" class="com.bytedance.news.foundation.router.AppLinkActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -99,7 +99,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- taobao -->
+  <!-- 手机淘宝 -->
   <prescription type="activity" package="com.taobao.taobao" class="com.taobao.search.common.SearchBonusActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -119,7 +119,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- 网易云音乐极速版-->
+  <!-- 网易云音乐极速版 -->
   <prescription type="activity" package="com.netease.cloudmusic.lite" class="com.netease.cloudmusic.activity.RedirectActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -130,7 +130,7 @@
     </intent-filter>
   </prescription>
 
-  <!-- 必收-->
+  <!-- 必收 -->
   <prescription type="activity" package="com.gzqwkj.cshu" class="com.gzqwkj.cshu.ui.activity.LauchActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -140,7 +140,7 @@
       <scheme name="https"/>
     </intent-filter>
   </prescription>
-  
+
   <!-- 快下 -->
   <prescription type="activity" package="com.kuaixia.download" class="com.kuaixia.download.dispatch.DispatchTaskActivity" sender="other">
     <intent-filter>
@@ -151,7 +151,7 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
-  
+
   <!-- 微博 -->
   <prescription type="activity" package="com.sina.weibo" class="com.sina.weibo.browser.WeiboBrowser" sender="other">
     <intent-filter>
@@ -162,7 +162,7 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
-  
+
   <!-- 迅雷 -->
   <prescription type="activity" package="com.xunlei.downloadprovider" class="com.xunlei.downloadprovider.launch.LaunchActivity" sender="other">
     <intent-filter>
@@ -173,7 +173,7 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
-  
+
   <!-- 百度 -->
   <prescription type="activity" package="com.baidu.searchbox" class="com.baidu.searchbox.BoxBrowserActivity" sender="other">
     <intent-filter>
@@ -184,8 +184,8 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
-   
-  <!-- aria2 app -->
+
+  <!-- Aria2 -->
   <prescription type="activity" package="com.gianlu.aria2app" class="com.gianlu.aria2app.LoadingActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW" />
@@ -194,5 +194,81 @@
       <scheme name="http" />
       <scheme name="https" />
     </intent-filter>
-  </prescription>
-</prescriptions>
+
+    <!-- 彩云小译 -->
+    <prescription type="activity" package="com.caiyuninterpreter.activity" class="com.caiyuninterpreter.activity.activity.WebTranslationActivity" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+
+    <!-- 海阔 -->
+    <prescription type="activity" package="com.dyh.hiker" class="com.dyh.movienow.ui.home.ResolveIntentDialogActivity" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+
+    <!-- 快速搜索 -->
+    <prescription type="activity" package="com.hisnstudio.quicksearch" class="com.hisnstudio.quicksearch.WebActivity" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+
+    <!-- 有道翻译官 -->
+    <prescription type="activity" package="com.youdao.translator" class="com.youdao.webtrans.WebTransActivity" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+
+    <!-- 10086 -->
+    <prescription type="activity" package="zz.dela.cmcc.traffic" class="zz.dela.cmcc.traffic.features.splash.view.SplashActivity" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+
+    <!-- Idm Lite -->
+    <prescription type="activity" package="idm.internet.download.manager.adm.lite" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+
+    <!-- 航旅纵横 -->
+    <prescription type="activity" package="com.umetrip.android.msky.app" class="com.umetrip.android.msky.business.weex.WeexActivity" sender="other">
+      <intent-filter>
+        <action name="android.intent.action.VIEW" />
+        <cat name="android.intent.category.BROWSABLE" />
+        <cat name="android.intent.category.DEFAULT" />
+        <scheme name="http" />
+        <scheme name="https" />
+      </intent-filter>
+    </prescription>
+  </prescriptions>
