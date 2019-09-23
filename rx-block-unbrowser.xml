@@ -185,81 +185,82 @@
       <scheme name="http" />
       <scheme name="https" />
     </intent-filter>
+  </prescription>
 
-    <!-- 彩云小译 -->
-    <prescription type="activity" package="com.caiyuninterpreter.activity" class="com.caiyuninterpreter.activity.activity.WebTranslationActivity" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
+  <!-- 彩云小译 -->
+  <prescription type="activity" package="com.caiyuninterpreter.activity" class="com.caiyuninterpreter.activity.activity.WebTranslationActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
-    <!-- 海阔 -->
-    <prescription type="activity" package="com.dyh.hiker" class="com.dyh.movienow.ui.home.ResolveIntentDialogActivity" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
+  <!-- 海阔 -->
+  <prescription type="activity" package="com.dyh.hiker" class="com.dyh.movienow.ui.home.ResolveIntentDialogActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
-    <!-- 快速搜索 -->
-    <prescription type="activity" package="com.hisnstudio.quicksearch" class="com.hisnstudio.quicksearch.WebActivity" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
+  <!-- 快速搜索 -->
+  <prescription type="activity" package="com.hisnstudio.quicksearch" class="com.hisnstudio.quicksearch.WebActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
-    <!-- 有道翻译官 -->
-    <prescription type="activity" package="com.youdao.translator" class="com.youdao.webtrans.WebTransActivity" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
+  <!-- 有道翻译官 -->
+  <prescription type="activity" package="com.youdao.translator" class="com.youdao.webtrans.WebTransActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
-    <!-- 10086 -->
-    <prescription type="activity" package="zz.dela.cmcc.traffic" class="zz.dela.cmcc.traffic.features.splash.view.SplashActivity" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
+  <!-- 10086 -->
+  <prescription type="activity" package="zz.dela.cmcc.traffic" class="zz.dela.cmcc.traffic.features.splash.view.SplashActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
-    <!-- Idm Lite -->
-    <prescription type="activity" package="idm.internet.download.manager.adm.lite" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
+  <!-- Idm Lite -->
+  <prescription type="activity" package="idm.internet.download.manager.adm.lite" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 
-    <!-- 航旅纵横 -->
-    <prescription type="activity" package="com.umetrip.android.msky.app" class="com.umetrip.android.msky.business.weex.WeexActivity" sender="other">
-      <intent-filter>
-        <action name="android.intent.action.VIEW" />
-        <cat name="android.intent.category.BROWSABLE" />
-        <cat name="android.intent.category.DEFAULT" />
-        <scheme name="http" />
-        <scheme name="https" />
-      </intent-filter>
-    </prescription>
-  </prescriptions>
+  <!-- 航旅纵横 -->
+  <prescription type="activity" package="com.umetrip.android.msky.app" class="com.umetrip.android.msky.business.weex.WeexActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+</prescriptions>
